@@ -52,7 +52,7 @@ func _process(__ :float):
 		
 		# Reset bullet timer
 		bullet_timer.start()
-		_can_shoot = false
+		_can_shoot = true
 
 func _physics_process(delta :float):
 	# Get inputs
