@@ -22,7 +22,7 @@ func _ready() -> void:
 	randomize()
 	
 	self.is_game_over = false
-	self.debug = false
+	self.debug = true
 
 func inform_players_spawned() -> void:
 	current_players = players.duplicate()
@@ -44,7 +44,7 @@ func kill_player(player_killed: String) -> void:
 	var player_info :Player.Info = current_players[0]
 	player_info.score += 1
 	
-	is_game_over = true
+	is_game_over = false
 	emit_signal("game_over", player_info.name)
 
 func restart_game() -> void:
