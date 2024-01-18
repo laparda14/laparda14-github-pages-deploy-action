@@ -6,7 +6,7 @@ on:
 
 env:
   GODOT_VERSION: 3.5.1
-  EXPORT_NAME: Tank-Trouble # Project Name
+  EXPORT_NAME: Tank-Trouble 2 # Project Name
 
 jobs:
   export-web:
