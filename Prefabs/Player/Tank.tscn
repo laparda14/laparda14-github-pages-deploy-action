@@ -71,6 +71,7 @@ position = Vector2( 0, -20 )
 
 [node name="BulletTimer" type="Timer" parent="."]
 wait_time = 0.1
+one_shot = true
 one_shot = false
 autostart = true
 
